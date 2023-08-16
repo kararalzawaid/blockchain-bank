@@ -1,0 +1,6 @@
+service : {
+  checkBalance: () -> (nat) query;
+  getTime: () -> (text) query;
+  topUp: (nat) -> (text);
+  withDraw: (nat) -> (text);
+}
